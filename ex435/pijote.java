@@ -20,6 +20,7 @@ public class pijote {
             int size = cadena.length;
             int contador [] = new int[10];
             for(int i =0; i < size; i++){
+                // getnumericvalue para char 
                 contador[Integer.parseInt(String.valueOf(cadena[i]))]++;
             }
             String salida = (no_subnormal(contador)) ? "subnormal" : "no subnormal";
