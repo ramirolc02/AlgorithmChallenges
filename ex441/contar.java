@@ -36,6 +36,7 @@ public class contar {
 		{
 			while(s.hasNext()) 
 			{
+				
 				cadena = s.nextLine().toCharArray();
 				System.out.println(suma(cadena));
 			}
