@@ -1,7 +1,6 @@
 package ex350;
 import java.io.BufferedInputStream;
 import java.util.Scanner;
-// import
 
 public class areatriangulo {
     public static void main(String[] args) {
